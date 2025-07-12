@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Management System</title>
+    <link rel="stylesheet" href="./employee_details.css" />
+  </head>
+  <body>
+    <!-- * This is the title of Web -->
+    <h1>Employee Management System</h1>
+
+    <!--* Here in this box it'll show the result of Each roll  -->
+    <div class="employee_details" id="employeesDetails"></div>
+    <div class="control">
+      <!-- * Through this button the whole Employees of our Company -->
+      <button class="button" onclick="displayEmployee()">Display Employees</button>
+
+      <!-- * Through this button we'll calculate the total salaries of the whole Employees -->
+      <button class="button" onclick="calculateTotalSalaries()">
+        Calculate Total Salaries
+      </button>
+
+      <!-- * Through this button we'll display the HR Employee -->
+      <button class="button" onclick="displayHREmployees()">
+        Display HR Employees
+      </button>
+
+      <!-- * Through this button we'll Find the Employee through By ID -->
+      <button class="button" onclick="findEmployeeById()">
+        Find Employee By Id 2
+      </button>
+    </div>
+
+    <script src="./employee_details.js"></script>
+  </body>
+</html>
